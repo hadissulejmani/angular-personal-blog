@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'hadis-blog';
+  
+  function f() {
+    var message = "Hello, world!";
+
+    return message;
+  }
 }
